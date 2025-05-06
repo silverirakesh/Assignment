@@ -1,0 +1,5 @@
+com\framework\hooks\Hooks.class
+com\framework\common\UIHelpers.class
+com\framework\utilities\PropertiesReader.class
+com\framework\utilities\CSVWriter.class
+com\framework\utilities\JsonConfigReader.class

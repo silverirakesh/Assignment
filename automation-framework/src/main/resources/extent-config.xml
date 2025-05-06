@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="extent-config.xsd">
+    <configuration>
+        <!-- Report Theme -->
+        <theme>standard</theme>
+
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Document Title -->
+        <documentTitle>Test Automation Report</documentTitle>
+
+        <!-- Report Name -->
+        <reportName>Extent Report - Selenium Test Execution</reportName>
+
+        <!-- Report Visibility -->
+        <protocol>https</protocol>
+
+        <!-- Timestamp Format -->
+        <timeStampFormat>yyyy-MM-dd HH:mm:ss</timeStampFormat>
+
+        <!-- Enable or Disable Chart -->
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+
+        <!-- Log Level -->
+        <level>INFO</level>
+
+        <!-- Enable Offline Mode (No Internet Dependency) -->
+        <offlineMode>true</offlineMode>
+    </configuration>
+</extentreports>

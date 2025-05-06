@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>assignment-veeva</groupId>
+    <artifactId>assignment-veeva</artifactId>
+    <version>1.0</version>
+  </parent>
+  <artifactId>derived-product1-tests</artifactId>
+  <name>Multi Module Maven Project - Module 3</name>
+   <dependencies>
+  <dependency>
+    <groupId>assignment-veeva</groupId>
+    <artifactId>automation-framework</artifactId>
+    <version>1.0</version>
+  </dependency>
+</dependencies>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M7</version>
+            <configuration>
+                <includes>
+                    <include>**/DP1TestRunner.java</include> <!-- Specify your test runner -->
+                </includes>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+</project>
